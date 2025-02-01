@@ -23,7 +23,7 @@ For more details, refer to the user documentation or visit the getting started p
 If users encounter any issues or have questions, they can get help from:
 
 #Help Center: An FAQ section on the website covering common issues, like account creation, listing products, and making payments.
-Support Email: Users can reach out to the support team directly by email at support@sportsequipmentmarketplace.com.
+Support Email: Users can reach out to the support team directly by email at vangalasrineshgoud@gmail.com
 Community Forum: A community-driven forum where users can ask questions and share tips with fellow buyers and sellers.
 #Live Chat: Available on the website for real-time assistance during business hours.
 Who Maintains and Contributes to the Project
