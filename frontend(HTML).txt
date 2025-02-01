@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SportSwap Marketplace</title>
+  <link rel="stylesheet" href="styles.css">
+<script src="scripts.js" defer></script>
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <div class="logo">
+      <a href="#">SportSwap</a>
+    </div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Sell</a></li>
+        <li><a href="#">Categories</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="search-container">
+      <input type="text" placeholder="Search items...">
+      <button class="search-btn">🔍</button>
+    </div>
+    <div class="user-profile">
+      <a href="#">Login</a> / <a href="#">Sign Up</a>
+    </div>
+    <div class="icons">
+      <a href="#">🛒</a>
+      <a href="#">❤</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Buy, Sell & Trade Sports Gear – Hassle-Free!</h1>
+      <p>Find the best deals on new and used sports equipment. Join the community and start trading today!</p>
+      <div class="cta-buttons">
+        <a href="#category-item" class="cta-button">Explore Now</a>
+        <a href="#" class="cta-button">Sell Your Gear</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Categories -->
+  <section id="featured-categories" class="featured-categories">
+    <h2>Featured Categories</h2>
+    <div class="categories-grid">
+      <div id = "category-item" class="category-item">
+        <a href="#">
+ <img src="https://i.ibb.co/tMH07b4v/pexels-pixabay-209861.jpg"  alt="pexels-pixabay-209861" border="0" alt="Soccer">
+          <span>Soccer</span>
+        </a>
+      </div>
+      <div class="category-item">
+        <a href="#">
+          <img src="https://i.ibb.co/0yLy5c5Y/pexels-cottonbro-5274536.jpg" alt="Basketball">
+          <span>basketball</span>
+        </a>
+      </div>
+      <div class="category-item">
+        <a href="#">
+          <img src="https://i.ibb.co/KjbkHPk2/pexels-elchino-portrait-774941174-20470948.jpg" alt="Tennis">
+          <span>Tennis</span>
+        </a>
+      </div>
+      <div class="category-item">
+        <a href="#">
+          <img src="https://i.ibb.co/0yLy5c5Y/pexels-cottonbro-5274536.jpg" alt="Fitness & Gym">
+          <span>Fitness & Gym</span>
+        </a>
+      </div>
+      <div class="category-item">
+        <a href="#">
+          <img src="https://i.ibb.co/1G2dp7GP/pexels-pixabay-257961.jpg" alt="Winter Sports">
+          <span>Winter Sports</span>
+        </a>
+      </div>
+      <div class="category-item">
+        <a href="#">
+          <img src="https://i.ibb.co/Wptc7fC4/pexels-pixabay-248559.jpg" alt="Cycling">
+          <span>Cycling</span>
+        </a>
+      </div>
+      <div class="category-item">
+        <a href="#">
+          <img src="https://i.ibb.co/LmZLB4j/pexels-tdcat-102448.jpg" alt="Football">
+          <span>Football</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trending & Best Deals Section -->
+  <section class="trending-deals">
+    <h2>Trending & Best Deals</h2>
+    <div class="deals-container">
+      <div class="deal-card">
+        <img src="https://i.ibb.co/gZj2dMLP/pexels-marcus-queiroga-silva-86421404-15033214.jpg" alt="Product 1">
+        <div class="deal-info">
+          <span class="deal-label new">New Arrival</span>
+          <h3>Sports T-Shirt</h3>
+          <p class="price">$25.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+      <div class="deal-card">
+        <a href="#"><img src="https://i.ibb.co/gZ3GjdLz/pexels-yaroslav-shuraev-8694459.jpg" /></a> alt="Product 2">
+        <div class="deal-info">
+          <span class="deal-label hot">Hot Deal</span>
+          <h3>Basketball Shoes</h3>
+          <p class="price">$50.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+      <div class="deal-card">
+       <a href="#"><img src="https://i.ibb.co/kgG7s2B6/pexels-elchino-portrait-774941174-20470948.jpg" alt="Product 3">
+        <div class="deal-info">
+          <span class="deal-label top-rated">Top Rated</span>
+          <h3>Tennis Racket</h3>
+          <p class="price">$75.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section class="how-it-works">
+    <h2>How It Works</h2>
+    <div class="steps-container">
+      <div class="step">
+        <h3>Sign Up & Browse</h3>
+        <p>Find gear from trusted sellers.</p>
+      </div>
+      <div class="step">
+        <h3>List & Sell</h3>
+        <p>Post your unused gear easily.</p>
+      </div>
+      <div class="step">
+        <h3>Buy & Trade Securely</h3>
+        <p>Safe transactions with verified users.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- User Reviews & Testimonials Section -->
+  <section class="user-reviews">
+    <h2>What Our Users Say</h2>
+    <div class="reviews-container">
+      <div class="review-card">
+        <p>"SportSwap made it so easy for me to find great deals on used equipment. I sold my old bike in just a few days!"</p>
+        <div class="reviewer">
+          <img src="https://i.ibb.co/gZj2dMLP/pexels-marcus-queiroga-silva-86421404-15033214.jpg" alt="User 1">
+          <div class="reviewer-info">
+            <h3>John Doe</h3>
+            <p>Verified Buyer</p>
+          </div>
+        </div>
+      </div>
+      <div class="review-card">
+        <p>"I love how user-friendly the website is. I found exactly what I was looking for and got a great price!"</p>
+        <div class="reviewer">
+          <img src="https://i.ibb.co/kz36SG1/pexels-olly-846741.jpg"  alt="User 2">
+          <div class="reviewer-info">
+            <h3>Jane Smith</h3>
+            <p>Verified Seller</p>
+          </div>
+        </div>
+      </div>
+      <div class="review-card">
+        <p>"Fantastic experience! The support team was so helpful, and I felt safe buying from verified sellers."</p>
+        <div class="reviewer">
+          <img src= alt="User 3">
+          <div class="reviewer-info">
+            <h3>Sam Wilson</h3>
+            <p>Verified Buyer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="write-review-btn">Write a Review</button>
+  </section>
+
+  <!-- Call-To-Action Section -->
+  <section class="cta-banner">
+    <div class="cta-content">
+      <h2>Join Thousands of Sports Enthusiasts – Buy & Sell Gear with Ease!</h2>
+      <a href="#" class="cta-button">Join Now</a>
+      <div class="newsletter">
+        <input type="email" placeholder="Enter your email for exclusive deals" />
+        <button class="subscribe-btn">Subscribe</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-links">
+      <ul>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Sell</a></li>
+        <li><a href="#">FAQs</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Terms & Policies</a></li>
+      </ul>
+    </div>
+    <div class="social-media">
+      <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a> | <a href="#">YouTube</a>
+    </div>
+    <div class="payment-methods">
+      <p>Payments: Visa, PayPal, Apple Pay</p>
+    </div>
+    <p>&copy; 2025 SportSwap. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
